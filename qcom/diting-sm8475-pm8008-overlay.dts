@@ -1,14 +1,14 @@
 /dts-v1/;
 /plugin/;
 
-#include "cape-mtp.dtsi"
-#include "cape-sm8475-pm8008.dtsi"
-#include "cape-pm8010-spmi.dtsi"
+#include "diting-sm8475.dtsi"
+#include "diting-wl2866d.dtsi"
 
 / {
-	model = "Qualcomm Technologies, Inc. Cape MTP with PM8008";
+	model = "Diting based on Qualcomm Technologies, Inc SM8475";
 	compatible = "qcom,cape-mtp", "qcom,cape", "qcom,mtp";
 	qcom,msm-id = <530 0x10000>, <531 0x10000>, <540 0x10000>;
 	qcom,board-id = <0x10008 0>;
+	xiaomi,miboard-id = <0xA 0>;
 };
 
