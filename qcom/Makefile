@@ -307,7 +307,8 @@ dtbo-$(CONFIG_ARCH_CAPE) += cape-mtp-pm8008-overlay.dtbo \
 	ukee-mtp-nodisplay-pm8008-overlay.dtbo \
 	ukee-mtp-nodisplay-pm8010-overlay.dtbo \
 	ukee-qrd-pm8008-overlay.dtbo \
-	ukee-qrd-pm8010-overlay.dtbo
+	ukee-qrd-pm8010-overlay.dtbo \
+	diting-sm8475-pm8008-overlay.dtbo
 
 cape-mtp-pm8008-overlay.dtbo-base := cape.dtb cape-v2.dtb capep.dtb
 cape-mtp-120fps-pm8008-overlay.dtbo-base := cape.dtb cape-v2.dtb capep.dtb
@@ -323,6 +324,7 @@ cape-cdp-pm8010-overlay.dtbo-base := cape.dtb cape-v2.dtb capep.dtb
 cape-cdp-qhd-pm8010-overlay.dtbo-base := cape.dtb cape-v2.dtb capep.dtb
 cape-atp-pm8010-overlay.dtbo-base := cape.dtb cape-v2.dtb capep.dtb
 cape-qrd-pm8010-overlay.dtbo-base := cape.dtb cape-v2.dtb capep.dtb
+diting-sm8475-pm8008-overlay.dtbo-base := cape.dtb cape-v2.dtb capep.dtb
 cape-kiwi-mtp-pm8008-overlay.dtbo-base := cape.dtb cape-v2.dtb capep.dtb
 cape-kiwi-mtp-pm8010-overlay.dtbo-base := cape.dtb cape-v2.dtb capep.dtb
 cape-kiwi-cdp-pm8008-overlay.dtbo-base := cape.dtb cape-v2.dtb capep.dtb

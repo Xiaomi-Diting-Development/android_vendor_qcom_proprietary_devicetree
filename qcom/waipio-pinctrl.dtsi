@@ -1,6 +1,30 @@
 &tlmm {
 
 	sbu_uart_en_ctrl {
+		sbu_uart_en_idle_dit: uart_audio_en_idle_dit {
+			mux {
+				pins = "gpio12";
+				function = "gpio";
+			};
+			config {
+				pins = "gpio12";
+				drive-strength = <2>;
+				bias-pull-down;
+				output-low;
+			};
+		};
+		sbu_uart_en_active_dit: uart_audio_en_active_dit {
+			mux {
+				pins = "gpio12";
+				function = "gpio";
+			};
+			config {
+				pins = "gpio12";
+				drive-strength = <2>;
+				bias-disable;
+				output-high;
+			};
+		};
 		sbu_uart_en_idle_ze: uart_audio_en_idle_ze {
 			mux {
 				pins = "gpio12";
